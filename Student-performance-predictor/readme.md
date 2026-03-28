@@ -1,18 +1,65 @@
 # Student Performance Predictor
 
-This project is for predicting the student marks using study hours and attendance with a Machine Learning model.
+It is a simple machine learning project which predicts a student's marks based on two factors: study hours and attendance. The goal of this project is to understand how basic ML models can be used to solve real-life problems. I have created this project as part of Fundamentals of AIML coursework.
 
-## Installation
+## About the Project
 
-This is our requirement for this model --> pip install -r requirements.txt
+In this project, a Linear Regression model is used to find the relationship between input features (study hours and attendance) and output (marks). After training the model on a small dataset, the program takes user input and predicts the expected marks.
 
-## Run
+## Requirements
+
+* Python 3.13.7 installed
+* Required libraries:
+
+  * pandas
+  * scikit-learn
+
+We can install the required libraries using:
+
+pip install -r requirements.txt
+
+## How to Run the Project
+
+1. Open terminal in the project folder
+2. Run the following command:
 
 python main.py
 
+3. Enter the values when asked:
+
+   * Study hours
+   * Attendance percentage
+
+4. The program will display the predicted marks.
+
 ## Example
 
-Enter study hours:6  
-Enter attendance (%): 85  
+Input:
+Study hours: 6
+Attendance: 85
 
-Output: Predicted Marks will be 62.32
+Output:
+Predicted Marks: (value will be shown) i.e(in this example:64.06)
+
+## Files in the Project
+
+* main.py → contains the main program and model
+* data.csv → dataset used for training
+* requirements.txt → required Python libraries
+
+## What I Learned
+
+* Basic use of pandas for handling data
+* Training a simple machine learning model
+* Taking user input and making predictions
+* How to structure a small project and upload it to GitHub
+
+## Future Improvements
+
+* Add more input features like test scores or assignments
+* Use a larger dataset for better accuracy
+* Add a simple interface instead of command line
+
+---
+
+This project is mainly for learning purposes and to understand the basics of machine learning.
