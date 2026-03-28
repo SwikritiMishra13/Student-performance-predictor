@@ -63,3 +63,11 @@ Predicted Marks: (value will be shown) i.e(in this example:64.06)
 ---
 
 This project is mainly for learning purposes and to understand the basics of machine learning.
+
+## Notes
+
+This project uses a small dataset for demonstration purposes. 
+The prediction may not be highly accurate but shows how machine learning models work.
+
+## Sample Output
+![alt text](image.png)
