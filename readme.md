@@ -18,6 +18,13 @@ We can install the required libraries using:
 
 pip install -r requirements.txt
 
+## Project Structure
+
+- main.py → main program file  
+- data.csv → dataset used for training  
+- requirements.txt → dependencies  
+- README.md → documentation  
+
 ## How to Run the Project
 
 1. Open terminal in the project folder
