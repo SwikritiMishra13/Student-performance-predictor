@@ -71,3 +71,8 @@ The prediction may not be highly accurate but shows how machine learning models 
 
 ## Sample Output
 ![alt text](image.png)
+
+## Limitations
+
+This model is trained on a small dataset, so predictions may not be fully accurate. 
+It is mainly built to demonstrate basic machine learning concepts.
